@@ -1,0 +1,15 @@
+{
+  "name": "dreamschat-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LogicLoomerz/dreamschat-backend.git",
+  "license": "UNLICENSED",
+  "description": "DreamsChat Backend API",
+  "private": false,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3"
+  }
+}
