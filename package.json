@@ -43,23 +43,12 @@
     "typescript": "^5.9.3"
   },
   "lint-staged": {
-    "*.ts": [
-      "prettier --write",
-      "eslint --fix",
-      "git add"
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write --ignore-unknown",
+      "eslint --fix"
     ],
-    "*.js": [
-      "prettier --write",
-      "eslint --fix",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ],
-    "*.md": [
-      "prettier --write",
-      "git add"
+    "*.{json,md}": [
+      "prettier --write"
     ]
   }
 }
